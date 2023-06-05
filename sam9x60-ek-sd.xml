@@ -7,9 +7,9 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/rauc" name="rauc"/>
-  <remote fetch="git@github.com:abdessamiichalbi" name="rauc-community"/>
+  <remote fetch="git@github.com" name="rauc-community"/>
   
-  <project remote="rauc-community" name="meta-rauc-community" revision="dev_achalbi/sam9" path="sources/meta-rauc-community">
+  <project remote="rauc-community" name="abdessamiichalbi/meta-rauc-community" revision="dev_achalbi/sam9" path="sources/meta-rauc-community">
 	<copyfile dest="setup-environment" src="meta-rauc-atmel/scripts/setup-environment"/>
   </project>
   
