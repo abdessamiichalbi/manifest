@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/rauc" name="rauc"/>
   <remote fetch="git@github.com:abdessamiichalbi" name="rauc-community"/>
   
-  <project remote="rauc-community" name="abdessamiichalbi/meta-rauc-community.git" path="sources/meta-rauc-community">
+  <project remote="rauc-community" name="meta-rauc-community" revision="dev_achalbi/sam9" path="sources/meta-rauc-community">
 	<copyfile dest="setup-environment" src="meta-rauc-atmel/scripts/setup-environment"/>
   </project>
   
@@ -18,5 +18,4 @@
   <project remote="yocto" name="meta-arm" path="sources/meta-arm"/>
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="rauc" name="meta-rauc" path="sources/meta-rauc"/>
-  <project remote="rauc-community" name="meta-rauc-community" path="sources/meta-rauc-community"/>
 </manifest>
